@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body{
+    width:100%;
+    background-image: url("assets/img/background2.jpg");
+    height: 100%;
+}
+h3{
+    color: #900C3F ;
+}
+/*------------------------------------------NAVBAR---------------------------------------*/
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: brown;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    box-sizing: border-box;
+
+}
+
+.logo{
+    cursor: pointer;
+    width: 5%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 15px 50px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: black;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #DAF7A6;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: black;
+}
+/*---sensor---*/
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #581845;
+    font-weight: bolder;
+}
+
+.system{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.system .DHT11{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bolder;
+    margin: 15px 15px;
+    padding-right: 20px;
+}
+.system .DHT11 img{
+    width: 400px;
+    border-radius: 20px ;
+}
+
+.system .explanation {
+    text-align: justify;
+}
+
+.system .explanation h4{
+    color: #000;
+}
+
+.system .explanation p{
+    color: #000;
+}
+
+.list{
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.list li{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+
+
+.system .MOISTURE{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #333;
+    margin: 15px 15px;
+    padding-left: 20px;
+}
+.system .MOISTURE img{
+    width: 400px;
+    border-radius: 20px ;
+}
+
+.system .explanation {
+    text-align: justify;
+}
+
+.system .explanation h4{
+    color: #000;
+}
+
+.system .explanation p{
+    color: #000;
+}
+
+.list{
+    text-align: justify;
+}
+
+.list li{
+    font-size: 15px;
+}
+
+/*---circuit---*/
+.circuit{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.circuit img{
+    border-radius: 12px;
+    width: 1000px;
+}
+.circuit .explanation{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+.circuit .explanation p{
+    font-size: 20px;
+    color: #000;
+}
+/*------------------------------------------NAVBAR---------------------------------------*/
+
+
+/*------------------------------------------Footer---------------------------------------*/
+
+footer.sticky-footer {
+    text-align: center;
+    flex-shrink: 0;
+    color: black;
+    font-weight: bolder;
+}
+  
+footer.sticky-footer .copyright {
+    line-height: 1;
+    font-size: 0.8rem;
+}
+  
+body.sidebar-toggled footer.sticky-footer {
+    width: 100%;
+}
+  
+/*------------------------------------------Footer---------------------------------------*/
